@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISolutions.NewBackProject.Api", "src\ISolutions.NewBackProject.Api\ISolutions.NewBackProject.Api.csproj", "{6890E8B8-CD54-4C05-BCC4-88F74EEB86C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISolutions.NewBackProject.Api", "src\ISolutions.NewBackProject.Api\ISolutions.NewBackProject.Api.csproj", "{6890E8B8-CD54-4C05-BCC4-88F74EEB86C4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC1FE7F4-FE07-4140-990F-E2CE2F6EE2F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISolutions.NewBackProject.Application", "src\ISolutions.NewBackProject.Application\ISolutions.NewBackProject.Application.csproj", "{C05E8EF5-C5D8-4881-B641-F3CA3B59BD2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISolutions.NewBackProject.Application", "src\ISolutions.NewBackProject.Application\ISolutions.NewBackProject.Application.csproj", "{C05E8EF5-C5D8-4881-B641-F3CA3B59BD2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2F22C445-D240-4421-BB34-07E1EF0CB143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISolutions.NewBackProject.UnitTests", "tests\ISolutions.NewBackProject.UnitTests\ISolutions.NewBackProject.UnitTests.csproj", "{A9C9A20D-EBF3-4C54-9C84-B80F5AB8BED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISolutions.NewBackProject.UnitTests", "tests\ISolutions.NewBackProject.UnitTests\ISolutions.NewBackProject.UnitTests.csproj", "{A9C9A20D-EBF3-4C54-9C84-B80F5AB8BED2}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B0EA4EB6-C2F9-4219-B6A9-6591CBD2F397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISolutions.NewBackProject.SSO", "src\ISolutions.NewBackProject.SSO\ISolutions.NewBackProject.SSO.csproj", "{0CE0FFCD-926E-4560-9556-0EF8BC8A47D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{B0EA4EB6-C2F9-4219-B6A9-6591CBD2F397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0EA4EB6-C2F9-4219-B6A9-6591CBD2F397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0EA4EB6-C2F9-4219-B6A9-6591CBD2F397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE0FFCD-926E-4560-9556-0EF8BC8A47D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE0FFCD-926E-4560-9556-0EF8BC8A47D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE0FFCD-926E-4560-9556-0EF8BC8A47D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE0FFCD-926E-4560-9556-0EF8BC8A47D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{6890E8B8-CD54-4C05-BCC4-88F74EEB86C4} = {AC1FE7F4-FE07-4140-990F-E2CE2F6EE2F8}
 		{C05E8EF5-C5D8-4881-B641-F3CA3B59BD2C} = {AC1FE7F4-FE07-4140-990F-E2CE2F6EE2F8}
 		{A9C9A20D-EBF3-4C54-9C84-B80F5AB8BED2} = {2F22C445-D240-4421-BB34-07E1EF0CB143}
+		{0CE0FFCD-926E-4560-9556-0EF8BC8A47D8} = {AC1FE7F4-FE07-4140-990F-E2CE2F6EE2F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02809397-8231-4166-9357-4AD06D479B07}
