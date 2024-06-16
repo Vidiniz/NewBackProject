@@ -1,0 +1,6 @@
+@ISolutions.NewBackProject.SSO_HostAddress = http://localhost:5170
+
+GET {{ISolutions.NewBackProject.SSO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
