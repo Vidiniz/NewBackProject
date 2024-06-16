@@ -17,6 +17,8 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISolutions.NewBackProject.SSO", "src\ISolutions.NewBackProject.SSO\ISolutions.NewBackProject.SSO.csproj", "{31CD99C4-21D3-4AD6-A553-E0097362F799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISolutions.NewBackProject.SSOApplication", "..\ISolutions.NewBackProject.SSOApplication\ISolutions.NewBackProject.SSOApplication.csproj", "{397DC4F1-4292-41D1-A588-E619D99F13A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{31CD99C4-21D3-4AD6-A553-E0097362F799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31CD99C4-21D3-4AD6-A553-E0097362F799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31CD99C4-21D3-4AD6-A553-E0097362F799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397DC4F1-4292-41D1-A588-E619D99F13A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397DC4F1-4292-41D1-A588-E619D99F13A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397DC4F1-4292-41D1-A588-E619D99F13A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397DC4F1-4292-41D1-A588-E619D99F13A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{C05E8EF5-C5D8-4881-B641-F3CA3B59BD2C} = {AC1FE7F4-FE07-4140-990F-E2CE2F6EE2F8}
 		{A9C9A20D-EBF3-4C54-9C84-B80F5AB8BED2} = {2F22C445-D240-4421-BB34-07E1EF0CB143}
 		{31CD99C4-21D3-4AD6-A553-E0097362F799} = {AC1FE7F4-FE07-4140-990F-E2CE2F6EE2F8}
+		{397DC4F1-4292-41D1-A588-E619D99F13A9} = {AC1FE7F4-FE07-4140-990F-E2CE2F6EE2F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02809397-8231-4166-9357-4AD06D479B07}
