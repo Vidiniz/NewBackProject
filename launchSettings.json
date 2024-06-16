@@ -3,8 +3,13 @@
     "Docker Compose": {
       "commandName": "DockerCompose",
       "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "isolutions.newbackproject.api",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
       "serviceActions": {
-        "isolutions.newbackproject.api": "StartDebugging"
+        "isolutions.newbackproject.api": "StartDebugging",
+        "isolutions.newbackproject.sso": "StartDebugging",
+        "mssql-server": "StartWithoutDebugging"
       }
     }
   }

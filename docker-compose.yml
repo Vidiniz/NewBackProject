@@ -6,7 +6,13 @@ services:
     build:
       context: .
       dockerfile: src/ISolutions.NewBackProject.Api/Dockerfile
-  
+
+  isolutions.newbackproject.sso:
+    image: ${DOCKER_REGISTRY-}isolutionsnewbackprojectsso
+    build:
+      context: .
+      dockerfile: src/ISolutions.NewBackProject.SSO/Dockerfile
+      
   mssql-server:
     image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
     environment:
