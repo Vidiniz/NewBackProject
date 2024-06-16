@@ -1,0 +1,6 @@
+@ISolutions.NewBackProject.Api_HostAddress = http://localhost:5217
+
+GET {{ISolutions.NewBackProject.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
