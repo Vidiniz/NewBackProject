@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  isolutions.project.api:
+    image: ${DOCKER_REGISTRY-}isolutionsprojectapi
+    build:
+      context: .
+      dockerfile: ISolutions.Project.Api/Dockerfile

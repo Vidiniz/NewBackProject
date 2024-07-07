@@ -1,0 +1,6 @@
+@ISolutions.Project.Api_HostAddress = http://localhost:5051
+
+GET {{ISolutions.Project.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
