@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>f85168be-03db-466e-9e41-da9ee54c4fc3</ProjectGuid>
+    <ProjectGuid>94f438af-f974-452d-8ed4-9d07bd031b5d</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>isolutions.project.api</DockerServiceName>

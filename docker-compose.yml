@@ -5,4 +5,13 @@ services:
     image: ${DOCKER_REGISTRY-}isolutionsprojectapi
     build:
       context: .
-      dockerfile: ISolutions.Project.Api/Dockerfile
+      dockerfile: ISolutions.Project.Back/src/ISolutions.Project.Api/Dockerfile
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "Pass@word"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+    ports:
+      - "1433:1433"
