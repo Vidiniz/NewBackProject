@@ -1,4 +1,10 @@
 using ISolutions.Project.Api.Configurations;
+using ISolutions.Project.Application.Shared.Mapper;
+using ISolutions.Project.Application.Shared.Mediator;
+using ISolutions.Project.Domain.Configurations;
+using ISolutions.Project.Infrastructure.Database;
+using ISolutions.Project.Infrastructure.Repositories;
+using ISolutions.Project.Application.Features.User;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,13 +15,17 @@ builder.Host.UseSerilog((context, configuration) =>
     configuration.ReadFrom.Configuration(context.Configuration));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddConfigurations(builder.Configuration);
+builder.Services.AddProjectContexts(builder.Configuration);
+builder.Services.AddMediator();
 builder.Services.AddVersionConfiguration();
 builder.Services.AddVersionSwaggerConfiguration();
+builder.Services.AddMapperConfiguration();
+builder.Services.AddRepositories();
+builder.Services.AddUser();
 
 var app = builder.Build();
 

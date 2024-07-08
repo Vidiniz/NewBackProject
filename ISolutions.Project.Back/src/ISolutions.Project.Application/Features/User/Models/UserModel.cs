@@ -1,5 +1,5 @@
-﻿namespace ISolutions.Project.Domain.Entities;
-public class UserEntitiy
+﻿namespace ISolutions.Project.Application.Features.User.Models;
+public class UserModel
 {
     public Guid Id { get; set; }
     public string? Name { get; set; }
